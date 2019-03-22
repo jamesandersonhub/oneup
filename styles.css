@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html{
+  width: 100%;
+}
+body{
+  background-color: #525252;
+  width: 100%;
+  display: inline-block;
+}
+#left-col{
+  width: 15%;
+  float: left;
+}
+#right-col{
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  background-image: url("images/JueceboxAdBanner.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+#Center{
+  width: 70%;
+  min-height: 100%;
+  left: 15%;
+  top:0;
+  position: absolute;
+  background-color: #424242;
+  display: block;
+  margin-bottom: auto;
+}
+#header{
+  left: 0;
+  width: 100%;
+  height: 240px;
+  background-color: #424242;
+  position: absolute;
+}
+#headerp{
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #424242;
+  position: absolute;
+}
+#logop{
+  height: 120px;
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+#logo{
+  height: 240px;
+  width: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#social{
+  width: 175px;
+  bottom: 0;
+  right: 0;
+  background-color: #333;
+  position: absolute;
+  padding: 5px;
+}
+#twitch-embed{
+  margin: auto;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  float: left;
+}
+#content{
+  top: 240px;
+  width: 100%;
+  background-color: #333333;
+  position: absolute;
+}
+#contentp{
+  top: 120px;
+  width: 100%;
+  background-color: #333333;
+  position: absolute;
+  height: 100%;
+}
+.holder{
+  margin-top: 5px;
+  min-height: 50px;
+  width: 100%;
+  background-color: #222222;
+}
+.dropdown{
+  top: 120px;
+  height: 160px;
+  width: 100%;
+  background-color: #323232;
+  display: none;
+  text-align: center;
+}
+.ddhead{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#banner{
+  width: 100%;
+  margin-top: 5px;
+  background-color: #111 ;
+  overflow: hidden;
+  height: 480px;
+  display: inline-block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#bannerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productimg{
+  height: 360px;
+  display: none;
+}
+.prodimg1{
+    height: 160px;
+    width: 160px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center; 
+}
+.prodimg2{
+    height: 160px;
+    width: 160px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center; 
+}
+.prodimg3{
+    height: 160px;
+    width: 160px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center; 
+}
+.prodimg4{
+    height: 160px;
+    width: 160px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center; 
+}
+.next{
+    display: inline-block;
+    margin-left: 5px;
+}
+.last{
+    display: inline-block;
+    margin-right: 5px;
+}
+.frame{
+    display: inline-block;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+}
+#text{
+    display: none;
+}
+@media only screen and (max-width: 1150px) {
+    #left-col{
+      display: none;
+    }
+    #right-col{
+      display: none;
+    }
+    #Center{
+      width: 100%;
+      left: 0;
+    }
+  }
+@media only screen and (max-width: 780px) {
+    .prodimg4{
+        display: none;
+    }
+    .frame{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ddhead{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 615px) {
+    .prodimg3{
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .prodimg2{
+        display: none;
+    }
+}
